@@ -1,0 +1,31 @@
+  *{
+margin: 0;
+padding: 0;
+  }
+    body {
+  background-image: url('about3.jpg');
+  background-color: yellow;
+  }
+h1 
+{
+  text-align: center;
+}
+.about-head{
+  font-size: 99px;
+  text-align: center;
+  color: red;
+}
+main {
+background-color: yellow;
+color: red;
+border: 2px solid black;
+width: 800px;
+margin: 40px auto;
+text-align: center;
+padding: 20px;
+} 
+main h2{
+  font-size: 44px;
+  font-family: cursive;
+  margin: 20px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="extra.css">
+  <style type="text/css">
+  main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+  }
+  main p{
+    font-size: 22px;
+  }
+  #contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  align-items: center;
+  width: 90%;
+  margin: 40px 0;
+}
+
+#contact-form label {
+  margin: 12px;
+  font-size: 22px;
+}
+
+#contact-form input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: yellow;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+ #contact-form textarea{
+  width: 90%;
+  background-color: yellow;
+  height: 200px;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 22px;
+
+ }
+#contact-form .submit{
+  background-color: red;
+  color: yellow;
+  font-size: 22px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#contact p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#contact__p{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    
+<div id="head" class="flex">
+  <div id="logo">
+    <img src="logo.png" id="logo-img">
+  </div>
+  <div id="navbar">
+    <ul class="flex">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="location.html">Location</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contactt.html">Contact</a></li>
+      <li><a href="signup.html" id="signup">SignUp</a></li>
+    </ul>  
+  </header>
+
+  <main>
+    <p>We'd love to hear from you! Please don't hesitate to get in touch with us using the form below or by using the contact information provided.</p>
+    <form id="contact-form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" required></textarea><br>
+      <input type="submit" value="Send Message" class="submit">
+    </form> 
+    <p>Alternatively, you can reach us at:</p>
+    <ul>
+      <li>Phone: 555-555-5555</li>
+      <li>Email: info@mywebsite.com</li>
+    </ul>
+  </main>
+  <footer>
+    <p>&copy;Copyright 2022 DESiBURGER</p>
+  </footer>
+</body>
+</html>

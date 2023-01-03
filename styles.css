@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ body {
+  font-family: Arial, sans-serif;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.head{
+  font-size: 66px;
+  color: yellow;
+  font-weight: bolder;
+  font-family: cursive;
+  text-align: center;
+}
+#bannerimg{
+  width: 100%;
+  height: 100vh;
+}
+#menu{
+  margin: 20px;
+}
+
+.menu{
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid red;
+  border-radius: 2rem;
+  height: 500px;
+  width: 400px;
+  background-color: orangered;
+  line-height: 1;
+}
+
+.menu-button{
+  visibility: hidden;
+  border: 3px solid red;
+  border-radius: 2rem;
+  padding: 10px;
+  font-size: 22px;
+  width: 100%;
+  font-family: cursive;
+  background-color: yellow;
+  color: red;
+  font-weight: bolder;
+  position: absolute; 
+  bottom: 0;
+}
+.menu:last-child h2{
+word-spacing: 20px;
+}
+.menu:last-child .menu-button{
+margin-top: 70px;
+}
+
+.menu:hover .menu-button{
+  visibility: visible;
+  cursor: pointer;
+}
+.menu img{
+  height: 300px;
+}
+
+#testimonials{
+  border: 3px solid red;
+  border-radius: 33px 33px 0 0;
+  padding-top: 10px;
+}
+    .testimonial {
+  gap: 10px;
+  border: 2px solid red;
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+}
+
+.testimonial-text{
+ text-decoration: underline;
+}
+ .name{
+  text-decoration: underline;
+  font-size: 32px;
+  color: red;
+  text-align: right;
+ }
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  color: red;
+}
+
+.head {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+  #contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  align-items: center;
+  width: 60%;
+}
+
+#contact-form label {
+  font-size: 22px;
+}
+
+#contact-form input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: yellow;
+  font-size: 22px;
+}
+ #contact-form textarea{
+  width: 90%;
+  background-color: yellow;
+  height: 200px;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 22px;
+
+ }
+#contact-form .submit{
+  background-color: red;
+  color: yellow;
+  font-size: 22px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#contact p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+#contact__p{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
